@@ -6,9 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.mine.matrix" // <-- main package namespace
-    compileSdk = 33                // অথবা flutter.compileSdkVersion ব্যবহার করতে পারো
-    ndkVersion = "25.1.8937393"   // যদি প্রয়োজন হয়, Flutter SDK থেকে নিতে পারো
+    namespace = "com.mine.matrix" // main package namespace
+    compileSdk = 33                // অথবা flutter.compileSdkVersion ব্যবহার করা যেতে পারে
+    ndkVersion = "25.1.8937393"   // যদি প্রয়োজন হয়, Flutter SDK থেকে নিতে পারো
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.mine.matrix"  // <-- Play Store/App ID
+        applicationId = "com.mine.matrix"  // Play Store/App ID
         minSdk = 21                         // minimum supported SDK
         targetSdk = 33                      // target SDK
         versionCode = 1
@@ -29,7 +29,8 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = false      // code shrink off
+            isShrinkResources = false    // resource shrink off
             // Signing config: release build-এ নিজের key ব্যবহার করতে হবে
             signingConfig = signingConfigs.getByName("debug")
         }
