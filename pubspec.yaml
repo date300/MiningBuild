@@ -34,9 +34,9 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  web: true               # ✅ web support added
   image_path: "assets/icon/app_icon.png"
-
+  web:
+    generate: false   # Map structure, boolean নয়
 # =========================
 # Flutter Native Splash
 # =========================
