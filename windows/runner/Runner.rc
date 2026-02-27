@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "vexylonapp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "vexylonapp" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "vexylonapp.exe" "\0"
             VALUE "ProductName", "vexylonapp" "\0"
+=======
+            VALUE "FileDescription", "mine_matrix" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "mine_matrix" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "mine_matrix.exe" "\0"
+            VALUE "ProductName", "mine_matrix" "\0"
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

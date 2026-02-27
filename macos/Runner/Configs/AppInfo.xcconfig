@@ -5,10 +5,17 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
+<<<<<<< HEAD
 PRODUCT_NAME = vexylonapp
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.vexylonapp
+=======
+PRODUCT_NAME = mine_matrix
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.example.mineMatrix
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

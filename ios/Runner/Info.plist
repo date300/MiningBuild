@@ -7,7 +7,11 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 		<string>Vexylonapp</string>
+=======
+		<string>Mine Matrix</string>
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -15,7 +19,11 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
+<<<<<<< HEAD
 		<string>vexylonapp</string>
+=======
+		<string>mine_matrix</string>
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>

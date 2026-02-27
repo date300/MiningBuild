@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:vexylonapp/main.dart';
+=======
+import 'package:mine_matrix/main.dart';
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

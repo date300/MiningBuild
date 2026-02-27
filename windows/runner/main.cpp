@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"vexylonapp", origin, size)) {
+=======
+  if (!window.Create(L"mine_matrix", origin, size)) {
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

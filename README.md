@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # vexylonapp
+=======
+# mine_matrix
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
 
 A new Flutter project.
 

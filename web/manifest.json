@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "vexylonapp",
     "short_name": "vexylonapp",
+=======
+    "name": "mine_matrix",
+    "short_name": "mine_matrix",
+>>>>>>> bd12c70 (Initial commit for Mine Matrix)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
