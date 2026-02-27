@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  http: ^1.2.0
+  http: ^1.2.0   # API calls optional
 
 dev_dependencies:
   flutter_test:
@@ -25,15 +25,20 @@ flutter:
 
   assets:
     - assets/icon/app_icon.png
-    - assets/icon/app_icon.png
 
+# =========================
+# Flutter Launcher Icons
+# =========================
 flutter_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
 
+# =========================
+# Flutter Native Splash
+# =========================
 flutter_native_splash:
-  color: "#ffffff"
+  color: "#ffffff"              # background color
   image: assets/icon/app_icon.png
   android: true
   ios: true

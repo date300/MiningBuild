@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-android {
-    namespace = "com.mine.matrix"
-=======
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -10,10 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mine_matrix"
->>>>>>> bd12c70 (Initial commit for Mine Matrix)
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.mine.matrix" // <-- main package namespace
+    compileSdk = 33                // অথবা flutter.compileSdkVersion ব্যবহার করতে পারো
+    ndkVersion = "25.1.8937393"   // যদি প্রয়োজন হয়, Flutter SDK থেকে নিতে পারো
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -25,35 +20,22 @@ android {
     }
 
     defaultConfig {
-<<<<<<< HEAD
-        applicationId = "com.mine.matrix"
-=======
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.mine_matrix"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
->>>>>>> bd12c70 (Initial commit for Mine Matrix)
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        applicationId = "com.mine.matrix"  // <-- Play Store/App ID
+        minSdk = 21                         // minimum supported SDK
+        targetSdk = 33                      // target SDK
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     buildTypes {
         release {
-<<<<<<< HEAD
-=======
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
->>>>>>> bd12c70 (Initial commit for Mine Matrix)
+            isMinifyEnabled = false
+            // Signing config: release build-এ নিজের key ব্যবহার করতে হবে
             signingConfig = signingConfigs.getByName("debug")
         }
     }
 }
-<<<<<<< HEAD
-=======
 
 flutter {
     source = "../.."
 }
->>>>>>> bd12c70 (Initial commit for Mine Matrix)
